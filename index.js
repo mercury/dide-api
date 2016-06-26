@@ -28,7 +28,6 @@ var api = new ParseServer({
 
 
 var dashboard = new ParseDashboard({
-  "allowInsecureHTTP": true,
   "apps": [
     {
       serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
@@ -36,7 +35,11 @@ var dashboard = new ParseDashboard({
       masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
       appName: process.env.APP_NAME || ''
     }
-  ]
+  ],
+  "users": [{
+      user: "admin",
+      pass: process.env.DASHBOARD_PASS
+  }]
 });
 
 var app = express();

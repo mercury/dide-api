@@ -1,11 +1,11 @@
 {
-  "name": "parse-server-example",
+  "name": "DiDe API",
   "version": "1.4.0",
-  "description": "An example Parse API server using the parse-server module",
+  "description": "Parse API for DiDe app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ParsePlatform/parse-server-example"
+    "url": "https://github.com/mercury/dide-api"
   },
   "license": "MIT",
   "dependencies": {
