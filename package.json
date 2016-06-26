@@ -1,5 +1,5 @@
 {
-  "name": "DiDe API",
+  "name": "dide-api",
   "version": "1.4.0",
   "description": "Parse API for DiDe app",
   "main": "index.js",
