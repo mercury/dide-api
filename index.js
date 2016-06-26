@@ -40,7 +40,7 @@ var dashboard = new ParseDashboard({
       user: "admin",
       pass: process.env.DASHBOARD_PASS || ''
   }]
-});
+}, true);
 
 var app = express();
 
